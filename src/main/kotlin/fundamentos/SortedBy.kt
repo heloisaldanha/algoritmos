@@ -5,4 +5,5 @@ fun main() {
     println(nomes.sortedBy { it })  // vai ordenar pela primeira letra
     println(nomes.sortedBy { it.length })  // vai ordenar pela quantidade de letras
     println(nomes.sortedBy { it.reversed() })  // vai inverter a palavra e pegar pela ordem da última letra
+    println(nomes.sorted().sortedDescending()) // não usa o sortedBy, mas inverte a ordem alfabética (da primeira letra)
 }
